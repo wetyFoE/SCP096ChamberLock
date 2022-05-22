@@ -17,10 +17,10 @@ namespace SCP096ChamberLock.Handlers
         {
             if (ev.RoleType == RoleType.Scp096)
             {
-                Door door = Map.Doors.First(x => x.Nametag == "096");
+                Door door = Door.List.First(x => x.Nametag == "096");
                 door.ChangeLock(Exiled.API.Enums.DoorLockType.AdminCommand);
                 yield return Timing.WaitForSeconds(0.5f);
-                ev.Player.Position = (Map.Rooms.First(y => y.Type == Exiled.API.Enums.RoomType.Hcz096).Position + UnityEngine.Vector3.up * 1.5f);
+                ev.Player.Position = (Room.List.First(y => y.Type == Exiled.API.Enums.RoomType.Hcz096).Position + UnityEngine.Vector3.up * 1.5f);
                 yield return Timing.WaitForSeconds(SCP096ChamberLock.Instance.Config.WaitTime);
                 door.IsOpen = true;
                 door.ChangeLock(Exiled.API.Enums.DoorLockType.None);
