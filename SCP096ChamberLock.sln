@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCP096ChamberLock", "SCP096ChamberLock\SCP096ChamberLock.csproj", "{EC225F00-3E4C-4EB9-8EBC-C76FB786E8F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC225F00-3E4C-4EB9-8EBC-C76FB786E8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC225F00-3E4C-4EB9-8EBC-C76FB786E8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC225F00-3E4C-4EB9-8EBC-C76FB786E8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC225F00-3E4C-4EB9-8EBC-C76FB786E8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F0DEC7-A350-40A9-82F1-138ACF52AB86}
+	EndGlobalSection
+EndGlobal
